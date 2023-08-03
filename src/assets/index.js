@@ -1,0 +1,12 @@
+import abt from "./aboutpic.png";
+import Vector from "./Vector.svg";
+import rect1 from "./rect1.png";
+import rect2 from "./rect2.png";
+import card1 from "./card1.png";
+import card2 from "./card2.png";
+import card3 from "./card3.png";
+import card4 from "./card4.png";
+import card5 from "./card5.png";
+import card6 from "./card6.png";
+import meta from "./metaverse1.png";
+export {abt,Vector,rect1,rect2,card1,card2,card3,card4,card5,card6,meta};
