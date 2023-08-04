@@ -1,12 +1,11 @@
 import React from "react";
 import "./Whatistbs.css";
-import { rect1, rect2 } from "../../assets";
+import {  abt } from "../../assets";
 const Whatistbs = () => {
   return (
     <div className="whatistbsContainer">
       <div className="lefttbs">
-        <img src={rect1} alt="" className="leftimg1" />
-        <img src={rect2} alt="" className="leftimg2" />
+          <img src={abt} alt="about" className="aboutimg" />
       </div>
       <div className="righttbs">
         <div className="righttbsheading">
