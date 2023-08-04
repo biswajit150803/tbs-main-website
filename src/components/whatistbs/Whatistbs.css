@@ -1,7 +1,7 @@
 .whatistbsContainer {
     display: flex;
     justify-content: space-between;
-    margin-top: 15vh;
+    margin-top: 20vh;
 }
 
 .lefttbs {
@@ -29,6 +29,7 @@
 
 .righttbs{
     margin-right: 10vw;
+    margin-top: 20vh;
 }
 
 .tbspara {

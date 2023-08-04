@@ -28,24 +28,39 @@ body {
   font-size: 42px;
   margin-top: -2vh;
   background-color: #000308;
+  position: relative;
+  display: inline-block;
   /* background-image: url("https://www.transparenttextures.com/patterns/debut-light.png"); */
 }
 .logN{
-  /* height:11.71951219512195vh; */
   height: 12vh;
   justify-content: center;
   align-items: center;
-  margin-top: -8.5vh;
+  margin-top: 5vh;
+  cursor: pointer;
 }
-
 .logospan{
-    color: #FFF;
+  position: absolute;
+  color: #FFF;
 font-family: Orbitron;
 font-size: 22px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+opacity: 0;
 }
+.logo:hover .logospan{
+  opacity: 1;
+  top: 40px;
+  left: 0;
+  cursor: pointer;
+}
+.logo:hover .logN{
+  opacity: 0;
+}
+
+
+
 .navbar {
   height: 13.71951219512195vh;
   background-color: #000308;

@@ -1,9 +1,10 @@
 import './App.css';
 import About from './components/About/About';
-import Activity from './components/Activity/Activity';
+import Choose from './components/Choose/Choose';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
-import Work from './components/Work/Work';
+import Business from './components/business/Business';
+import Testimonial from './components/testimonials/Testimonial';
 import Whatistbs from './components/whatistbs/Whatistbs';
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
     <Navbar />
     <About />
     <Whatistbs />
-    <Work />
-    <Activity />
+    <Choose />
+    <Business />
+    <Testimonial />
     <Footer />
     </div>
   );
