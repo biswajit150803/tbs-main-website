@@ -11,20 +11,20 @@ const Business = () => {
           </div>
           <div className="businesspara">
             <div className="div1">
-              <input type="text" placeholder="Name" className="inputs" />
-              <input type="text" placeholder="Email" className="inputs" />
+              <input type="name" placeholder="Name" className="inputs" />
+              <input type="email" placeholder="Email" className="inputs" />
             </div>
             <div className="div2">
               <input
-                type="text"
-                placeholder="Please select"
+                type="company"
+                placeholder="Company Name"
                 className="inputs"
               />
               <input
                 type="text"
-                placeholder="4:00 pm available"
+                placeholder="Contact time: 10 a.m to 6 p.m (IST)"
                 className="inputs"
-              />
+              /> 
             </div>
             <div className="div3">
                 <textarea placeholder="Message" className="textarea"></textarea>
