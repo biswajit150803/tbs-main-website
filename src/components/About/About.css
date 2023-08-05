@@ -107,7 +107,7 @@ background: radial-gradient(40.17% 39.79% at 50.00% 50.00%, rgba(170, 20, 240, 0
     border: 1px solid #FFFFFF;
 }
 
-.buttonabout3 {
+/* .buttonabout3 {
     display: flex;
     padding: 10px 36px;
     flex-direction: column;
@@ -139,7 +139,7 @@ background: radial-gradient(40.17% 39.79% at 50.00% 50.00%, rgba(170, 20, 240, 0
     border: 1px solid var(--light-background-color, #FFF);
     background-color: black;
     width: 150px;
-}
+} */
 
 .aboutfooter {
     display: flex;

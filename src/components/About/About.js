@@ -20,10 +20,10 @@ const About = () => {
           <button className="buttonabout1">Get Started</button>
           <button className="buttonabout2">Explore Now</button>
           </div>
-          <div className="buttondiv1">
+          {/* <div className="buttondiv1">
           <button className="buttonabout3">Get Quote Now</button>
           <button className="buttonabout4">Learn More</button>
-          </div>
+          </div> */}
         </div>
         <div className="aboutfooter">
           <div
