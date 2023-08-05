@@ -16,5 +16,7 @@ import name1 from "./name1.svg";
 import name2 from "./name2.svg";
 import name3 from "./name3.svg";
 import star from "./star.svg";
-import logo from "./logomain.png"
-export {abt,Vector,rect1,rect2,card1,card2,card3,card4,card5,card6,meta,clarity,carbon,award,name1,name2,name3,star,logo};
+import logo from "./logomain.png";
+import cover from "./cover.png";
+import bgcover from "./bgcover.png";
+export {abt,Vector,rect1,rect2,card1,card2,card3,card4,card5,card6,meta,clarity,carbon,award,name1,name2,name3,star,logo,cover,bgcover};

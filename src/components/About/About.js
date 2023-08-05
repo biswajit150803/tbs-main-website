@@ -2,6 +2,10 @@ import React from "react";
 import "./About.css";
 // import { Vector, abt } from "../../assets";
 const About = () => {
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log("You clicked submit.");
+  }
   return (
     <div className="aboutContainer">
       <div className="leftdiv">
@@ -128,6 +132,7 @@ const About = () => {
           {/* <img src={Vector} alt="vector" className="vectorimg" />
           <img src={abt} alt="about" className="aboutimg" /> */}
           <div className="aboutform">
+          <form onSubmit={handleSubmit}> 
             <div className="formheading">
               <h3 className="headingh3">Reach Us</h3>
             </div>
@@ -142,6 +147,7 @@ const About = () => {
                     lineHeight: "24px",
                     letterSpacing: "0.2px",
                   }}
+                  htmlFor="fname"
                 >
                   Name
                 </label>
@@ -168,6 +174,7 @@ const About = () => {
                     lineHeight: "24px",
                     letterSpacing: "0.2px",
                   }}
+                  htmlFor="email"
                 >Email</label>
                 <input type="email" placeholder="Enter your email" 
                   style={{
@@ -192,6 +199,7 @@ const About = () => {
                     lineHeight: "24px",
                     letterSpacing: "0.2px",
                   }}
+                  htmlFor="mobile"
                 >Mobile No.</label>
                 <input type="text" placeholder="Enter your mobile number"
                 style={{
@@ -208,8 +216,9 @@ const About = () => {
               </div>
             </div>
             <div className="formbutton">
-              <button className="buttonform">Submit</button>
+              <button className="buttonform" type="submit">Submit</button>
             </div>
+            </form>
           </div>
         </div>
       </div>

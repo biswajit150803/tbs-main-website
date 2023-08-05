@@ -19,6 +19,8 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  border-radius: 896px;
+background: radial-gradient(40.17% 39.79% at 50.00% 50.00%, rgba(170, 20, 240, 0.28) 0%, rgba(170, 20, 240, 0.00) 100%);
 }
 .logo
 {
