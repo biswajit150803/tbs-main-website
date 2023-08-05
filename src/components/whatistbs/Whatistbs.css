@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20vh;
+    border-radius: 1057px;
+background: radial-gradient(40.17% 39.79% at 50.00% 50.00%, rgba(170, 20, 240, 0.28) 0%, rgba(170, 20, 240, 0.00) 100%);
 }
 
 .lefttbs {

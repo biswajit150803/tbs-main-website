@@ -4,6 +4,7 @@
 .businesstop{
     background: rgba(75, 15, 103, 0.50);
     background-color: #c586e3fd;
+    background: url("../../assets/bgcover.png"),rgba(75, 15, 103, 0.50)  50% / cover no-repeat;
     padding-bottom: 8vh;
     padding-top: 8vh;
     margin-top: 15vh;

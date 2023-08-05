@@ -1,6 +1,12 @@
 import React from "react";
 import "./Footer.css";
-import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
+import {
+  BsFacebook,
+  BsInstagram,
+  BsLinkedin,
+  BsTwitter,
+  BsYoutube,
+} from "react-icons/bs";
 const Footer = () => {
   return (
     <div className="footerContainer">
@@ -24,11 +30,21 @@ const Footer = () => {
             About Us
           </span>
           <ul className="ul">
-            <li className="li">About TBS</li>
-            <li className="li">Contact us</li>
-            <li className="li">FAQ</li>
-            <li className="li">Privacy Policy</li>
-            <li className="li">Terms Of Services</li>
+            <li className="li">
+              <a href="#">About TBS</a>
+            </li>
+            <li className="li">
+              <a href="#">Contact us</a>
+            </li>
+            <li className="li">
+              <a href="#">FAQ</a>
+            </li>
+            <li className="li">
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li className="li">
+              <a href="#">Terms Of Services</a>
+            </li>
           </ul>
         </div>
         <div className="services">
@@ -46,11 +62,21 @@ const Footer = () => {
             Services
           </span>
           <ul className="ul">
-            <li className="li">NFT Marketplace</li>
-            <li className="li">Virtual Content</li>
-            <li className="li">Gaming</li>
-            <li className="li">Artwork</li>
-            <li className="li">Online Travel</li>
+            <li className="li">
+              <a href="#">NFT Marketplace</a>
+            </li>
+            <li className="li">
+              <a href="#">Virtual Content</a>
+            </li>
+            <li className="li">
+              <a href="#">Gaming</a>
+            </li>
+            <li className="li">
+              <a href="#">Artwork</a>
+            </li>
+            <li className="li">
+              <a href="#">Online Travel</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -72,28 +98,47 @@ const Footer = () => {
         </div>
         <div className="footerIcons">
           <div className="icon">
-            <BsLinkedin className="iconn" />
+            <a href="#">
+              {" "}
+              <BsLinkedin className="iconn" />
+            </a>
           </div>
           <div className="icon">
-            <BsTwitter className="iconn" />
+            <a href="#">
+              <BsTwitter className="iconn" />
+            </a>
           </div>
           <div className="icon">
-            <BsInstagram className="iconn" />
+            <a href="#">
+              {" "}
+              <BsInstagram className="iconn" />
+            </a>
           </div>
           <div className="icon">
-            <BsFacebook className="iconn" />
+            <a href="#">
+              <BsFacebook className="iconn" />
+            </a>
+          </div>
+          <div className="icon">
+            <a href="#">
+              <BsYoutube className="iconn" />
+            </a>
           </div>
         </div>
         <div className="footerPara">
-          <p style={{
-            color: "#FFF",
+          <p
+            style={{
+              color: "#FFF",
               fontFamily: "Poppins",
               fontSize: "13px",
               fontStyle: "normal",
               fontWeight: "400",
               lineHeight: "normal",
-              width:"263px"
-          }}>2023 © thebengalstudio.com All right reserved.</p>
+              width: "263px",
+            }}
+          >
+            2023 © thebengalstudio.com All right reserved.
+          </p>
         </div>
       </div>
     </div>

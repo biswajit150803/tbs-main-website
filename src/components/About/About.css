@@ -3,6 +3,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    border-radius: 1046px;
+background: radial-gradient(40.17% 39.79% at 50.00% 50.00%, rgba(170, 20, 240, 0.28) 0%, rgba(170, 20, 240, 0.00) 100%);
 }
 
 .leftdiv {
@@ -11,6 +13,8 @@
     align-items: flex-start;
     gap: 40px;
     margin-left: 5vw;
+    /* border-radius: 1057px;
+background: radial-gradient(40.17% 39.79% at 50.00% 50.00%, rgba(170, 20, 240, 0.28) 0%, rgba(170, 20, 240, 0.00) 100%); */
 }
 
 .heading {
@@ -119,22 +123,22 @@
     text-align: center;
     border-radius: 37px;
     background: var(--secondary-color-2, #16697A);
-    border:none
+    border: none
 }
 
-.buttonabout4{
+.buttonabout4 {
     color: var(--light-text-color, #FFF);
-text-align: center;
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 28px; 
-letter-spacing: 0.2px;
-border-radius: 37px;
-border: 1px solid var(--light-background-color, #FFF);
-background-color: black;
-width: 150px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    border-radius: 37px;
+    border: 1px solid var(--light-background-color, #FFF);
+    background-color: black;
+    width: 150px;
 }
 
 .aboutfooter {
@@ -148,6 +152,8 @@ width: 150px;
     height: 568px;
     flex-shrink: 0;
     margin-right: 8vw;
+    border-radius: 1046px;
+    background: radial-gradient(40.17% 39.79% at 50.00% 50.00%, rgba(170, 20, 240, 0.28) 0%, rgba(170, 20, 240, 0.00) 100%);
 
 }
 

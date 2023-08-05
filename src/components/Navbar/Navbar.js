@@ -1,4 +1,4 @@
-import React,{ useState } from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { BsFillHddStackFill } from "react-icons/bs";
 import { logo } from "../../assets";
@@ -12,26 +12,26 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="container">
           <div className="logo">
-             <img src={logo} alt="logo" className="logN" />         
-              <span className="logospan">The Bengal Studio</span>
+            <img src={logo} alt="logo" className="logN" />
+            <span className="logospan">The Bengal Studio</span>
           </div>
           <div className="menu-icon" onClick={handleShowNavbar}>
             <BsFillHddStackFill />
           </div>
           <div className={`nav-elements  ${showNavbar && "active"}`}>
             <ul>
-              <li className="hov pot" >
-                Home
+              <li className="hov pot">
+                <a href="#">Home</a>
               </li>
-              <li className="hov pot" >
-                Blog
+              <li className="hov pot">
+                <a href="#">Blog</a>
               </li>
-              <li className="hov pot" >
-                Career
+              <li className="hov pot">
+                <a href="#"> Career</a>               
               </li>
-              <li className="hov pot"  >
-                About Us
-              </li>              
+              <li className="hov pot">
+                <a href="#">About Us</a>
+              </li>
             </ul>
           </div>
         </div>
